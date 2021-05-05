@@ -1,0 +1,94 @@
+i {
+    cursor: pointer;
+    color: #003A6F;
+    transition: color 1s ease;
+}
+
+i:hover {
+    color: lightgrey;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+.modal-container {
+    display: none;
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    width: 500px;
+    height: 300px;
+    max-width: 90%;
+    max-height: 100%;
+    background-color: white;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: skyblue;
+}
+
+.modal-header__text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.modal-header__close {
+    margin-right: 4px;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid skyblue;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: skyblue;
+}
+
+.arrow {
+    margin-right: 4px;
+}
+
+.author {
+    float: right;
+    font-style: italic;
+}
+
+.selected {
+    color: #FFC56C;
+}
+
+.visible {
+    display: flex;
+}
+
+.dot {
+    padding: 1px;
+}
