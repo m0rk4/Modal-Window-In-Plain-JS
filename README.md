@@ -1,2 +1,2 @@
-# UID-2
+# UserInterfaceDevalopment Second Lab
 Modal window in plain JS.
